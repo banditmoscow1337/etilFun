@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 420" role="img" aria-labelledby="title">
+  <title id="title">Martini Bianco bottle</title>
+  <defs>
+    <linearGradient id="glass" x1="0" x2="1"><stop stop-color="#41663d"/><stop offset=".2" stop-color="#769169"/><stop offset=".48" stop-color="#d8d9b4"/><stop offset=".75" stop-color="#799269"/><stop offset="1" stop-color="#345b36"/></linearGradient>
+  </defs>
+  <ellipse cx="75" cy="406" rx="44" ry="7" fill="#253629" opacity=".22"/>
+  <path d="M50 28h50v90c0 15 17 23 23 38 4 9 4 22 4 40l6 173c1 23-15 34-36 36H53c-21-2-37-13-36-36l6-173c0-18 0-31 4-40 6-15 23-23 23-38z" fill="url(#glass)" stroke="#2e4e32" stroke-width="2"/>
+  <rect x="46" y="14" width="58" height="34" rx="3" fill="#ded9c3"/>
+  <path d="M49 20h52M49 27h52M49 34h52M49 41h52" stroke="#9b967f"/>
+  <rect x="30" y="156" width="90" height="152" rx="3" fill="#f4f0da" stroke="#dad3b7" stroke-width="4"/>
+  <circle cx="75" cy="205" r="34" fill="#d3262d"/>
+  <rect x="35" y="191" width="80" height="29" fill="#1b2730"/>
+  <text x="75" y="211" text-anchor="middle" fill="#fff" font-family="Arial,sans-serif" font-size="20" font-weight="900">MARTINI</text>
+  <text x="75" y="246" text-anchor="middle" fill="#28372a" font-family="Georgia,serif" font-size="16" font-style="italic">BIANCO</text>
+  <text x="75" y="269" text-anchor="middle" fill="#61705d" font-family="Arial,sans-serif" font-size="7" letter-spacing="1">VERMOUTH DI TORINO</text>
+  <path d="M38 53h12v314c0 15 5 25 14 31" fill="none" stroke="#fff" stroke-width="7" opacity=".27"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 420" role="img" aria-labelledby="title">
+  <title id="title">Jameson Irish Whiskey bottle</title>
+  <defs>
+    <linearGradient id="glass" x1="0" x2="1"><stop stop-color="#163e27"/><stop offset=".2" stop-color="#315c3a"/><stop offset=".48" stop-color="#6a7a4d"/><stop offset=".68" stop-color="#294d32"/><stop offset="1" stop-color="#102f20"/></linearGradient>
+  </defs>
+  <ellipse cx="80" cy="406" rx="46" ry="7" fill="#1d2b20" opacity=".24"/>
+  <path d="M55 36h50v74c0 19 20 32 27 50 4 10 4 24 4 43l6 166c1 23-15 34-38 36H56c-23-2-39-13-38-36l6-166c0-19 0-33 4-43 7-18 27-31 27-50z" fill="url(#glass)" stroke="#153821" stroke-width="2"/>
+  <rect x="51" y="16" width="58" height="39" rx="3" fill="#7c2630"/>
+  <path d="M54 22h52M54 29h52M54 36h52M54 43h52" stroke="#d7b48b" opacity=".7"/>
+  <path d="M36 155c16-8 72-8 88 0" fill="none" stroke="#b59455" stroke-width="3"/>
+  <rect x="34" y="164" width="92" height="149" rx="5" fill="#f2e9c9" stroke="#b69655" stroke-width="3"/>
+  <path d="M34 187h92M34 288h92" stroke="#b69655" stroke-width="2"/>
+  <text x="80" y="218" text-anchor="middle" fill="#163d29" font-family="Georgia,serif" font-size="25" font-weight="700">JAMESON</text>
+  <text x="80" y="241" text-anchor="middle" fill="#892c32" font-family="Arial,sans-serif" font-size="10" font-weight="700">IRISH WHISKEY</text>
+  <circle cx="80" cy="266" r="15" fill="none" stroke="#b69655" stroke-width="2"/>
+  <text x="80" y="270" text-anchor="middle" fill="#163d29" font-family="Georgia,serif" font-size="10">JJ&amp;S</text>
+  <path d="M43 59h12v300c0 15 5 29 13 38" fill="none" stroke="#fff" stroke-width="7" opacity=".15"/>
+</svg>

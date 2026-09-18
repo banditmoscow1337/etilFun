@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 420" role="img" aria-labelledby="title">
+  <title id="title">Absolut Vodka bottle</title>
+  <defs>
+    <linearGradient id="glass" x1="0" x2="1"><stop stop-color="#edf2f3" stop-opacity=".82"/><stop offset=".22" stop-color="#fff" stop-opacity=".38"/><stop offset=".62" stop-color="#dce4e6" stop-opacity=".55"/><stop offset=".86" stop-color="#fff" stop-opacity=".78"/><stop offset="1" stop-color="#cad5d8" stop-opacity=".72"/></linearGradient>
+    <linearGradient id="cap" y2="1"><stop stop-color="#777"/><stop offset=".18" stop-color="#e1e1df"/><stop offset=".55" stop-color="#9a9a98"/><stop offset=".83" stop-color="#ededeb"/><stop offset="1" stop-color="#666"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+  <ellipse cx="90" cy="404" rx="62" ry="8" fill="#5a6264" opacity=".22" filter="url(#shadow)"/>
+  <path d="M68 22h44v81c0 15 16 24 26 35 12 13 17 31 18 55l8 178c1 22-13 33-34 36H50c-21-3-35-14-34-36l8-178c1-24 6-42 18-55 10-11 26-20 26-35z" fill="url(#glass)" stroke="#b4c0c3" stroke-width="2"/>
+  <path d="M73 25h34v82c0 17 16 26 28 39" fill="none" stroke="#fff" stroke-width="7" opacity=".65"/>
+  <rect x="62" y="12" width="56" height="35" rx="4" fill="url(#cap)" stroke="#777"/>
+  <path d="M65 18h50M65 23h50M65 28h50M65 33h50M65 38h50" stroke="#666" opacity=".45"/>
+  <rect x="43" y="160" width="94" height="158" rx="4" fill="#fff" opacity=".44"/>
+  <circle cx="90" cy="145" r="17" fill="none" stroke="#6f7880" stroke-width="2"/>
+  <text x="90" y="151" text-anchor="middle" fill="#5d6670" font-family="Georgia,serif" font-size="17" font-weight="700">A</text>
+  <text x="90" y="206" text-anchor="middle" fill="#2361ac" font-family="Arial,sans-serif" font-size="27" font-weight="900" transform="scale(.9 1) translate(10 0)">ABSOLUT</text>
+  <text x="90" y="240" text-anchor="middle" fill="#2361ac" font-family="Arial,sans-serif" font-size="36" font-weight="900" transform="scale(.9 1) translate(10 0)">VODKA</text>
+  <text x="90" y="268" text-anchor="middle" fill="#50565a" font-family="Georgia,serif" font-size="13" font-style="italic">Swedish Vodka</text>
+  <path d="M62 288h56" stroke="#8a9498"/>
+  <text x="90" y="308" text-anchor="middle" fill="#4f575b" font-family="Arial,sans-serif" font-size="8">40% ALC./VOL.</text>
+  <text x="90" y="386" text-anchor="middle" fill="#677276" font-family="Arial,sans-serif" font-size="7" letter-spacing="3">COUNTRY OF SWEDEN</text>
+</svg>
