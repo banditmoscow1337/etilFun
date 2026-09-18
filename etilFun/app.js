@@ -182,21 +182,6 @@ function changeQuantity(id, delta) {
         .filter((item) => item.quantity > 0));
 }
 
-function statusBar() {
-    return div({ class: "status-bar" },
-        span({}, "9:41"),
-        div({ class: "status-icons", ariaLabel: "Связь, Wi-Fi и батарея" },
-            span({ class: "cell-bars" }, "▮▮▮"), span({}, "⌁"), span({ class: "battery" })
-        )
-    );
-}
-
-function phoneShell(content, className = "") {
-    return div({ class: `phone ${className}` },
-        div({ class: "phone-inner" }, statusBar(), content, div({ class: "home-indicator" }))
-    );
-}
-
 function iconButton(name, ariaLabel, onClick, active = () => false, extraClass = "") {
     return button({
         class: () => `plain-icon-button ${active() ? "is-active" : ""} ${extraClass}`.trim(),
@@ -206,7 +191,7 @@ function iconButton(name, ariaLabel, onClick, active = () => false, extraClass =
     }, icon(name));
 }
 
-function welcomeScreen({ live = false } = {}) {
+function welcomeScreen() {
     return main({ class: "screen welcome-screen", ariaLabel: "Добро пожаловать в EtilFun" },
         section({ class: "welcome-copy" },
             h1({ class: "welcome-logo" }, "EtilFun"),
@@ -222,8 +207,7 @@ function welcomeScreen({ live = false } = {}) {
             button({ class: "primary-button", type: "button", onClick: () => go("home") }, "Начать"),
             button({ class: "text-button", type: "button", onClick: () => { toast("Добро пожаловать снова!"); go("home"); } },
                 "Уже есть аккаунт? ", strong({}, "Войти")
-            ),
-            live ? small({ class: "demo-hint" }, "Интерактивный прототип") : null
+            )
         )
     );
 }
@@ -465,7 +449,7 @@ function currentScreen() {
         case "product": return detailScreen();
         case "cart": return cartScreen();
         case "profile": return profileScreen();
-        default: return welcomeScreen({ live: true });
+        default: return welcomeScreen();
     }
 }
 
@@ -498,13 +482,7 @@ function App() {
     });
 
     return div({ class: "app-stage" },
-        section({ class: "showcase", ariaLabel: "Обзор интерфейса EtilFun" },
-            phoneShell(welcomeScreen(), "welcome-phone"),
-            phoneShell(homeScreen(), "home-phone"),
-            phoneShell(detailScreen(), "detail-phone"),
-            phoneShell(cartScreen(), "cart-phone")
-        ),
-        div({ class: "live-app" }, phoneShell(currentScreen, "live-phone")),
+        div({ class: "live-app" }, currentScreen),
         searchOverlay(),
         div({ class: () => `toast ${toastMessage() ? "visible" : ""}`, role: "status" }, () => toastMessage())
     );
